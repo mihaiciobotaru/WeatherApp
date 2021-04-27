@@ -30,6 +30,11 @@ nav{
     justify-content: space-between;
 }
 
+nav h1{
+    color:#d5dfe7;
+}
+
+
 .content{
     content: '';
     position: absolute;
