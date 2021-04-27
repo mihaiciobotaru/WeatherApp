@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #1b1c25;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #2d618733;
+}
+
+nav{
+    height: 80px;
+    background-color: #2d6187;
+    border-bottom: 3px solid #393e46;
+
+    padding: 0px 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    content: '';
+    position: absolute;
+    top: 80px;
+    place-self: center;
+    width: 80%;
+    height: calc(100vh - 80px);
+    background-color: #2d618725;
+    border-left: 3px solid #393e4630;
+    border-right: 3px solid #393e4630;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding: 10vh 10vw;
+}
+
+input{
+    height: 6vh;
+    border: 1px solid #1b1c25;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+input[type="text"]{
+    width: 50vw;
+}
+
+input[type="submit"]{
+    width: 9.2vw;
+}
+
+#info{
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#city-name{
+    text-align: center;
+}
+#city-name h1{
+    font-size: 45px;
+    text-decoration: underline 4px solid;
+}
+
+
+#weather-desc,#temperature,#wind-speed,#humidity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wheater{
+    width: 60vw;
+    height: 60vh;
+    content: '';
+    background-color: #d5dfe7;
+    border-radius: 60px 120px;
+    border: 3px solid #393e4666;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo{
+    background: radial-gradient(#ffffff 25%,#d5dfe7,#d5dfe7);
+    background-color: #eeeeeedd;
+    padding: 100px 30px;
+    border-radius: 90px 55px;
+}
+
+#photo img{
+    width: 600px;
+}
